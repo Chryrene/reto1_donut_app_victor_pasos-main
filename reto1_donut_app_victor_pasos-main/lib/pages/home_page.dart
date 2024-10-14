@@ -68,11 +68,11 @@ class _HomePageState extends State<HomePage> {
               child: Row(
                 children: [
                   Text(
-                    'I want to ',
+                    'Lady Gaga - Alejandro now playing on spotify ',
                     style: TextStyle(fontSize: 32),
                   ),
                   Text(
-                    'EAT',
+                    'Fly',
                     style: TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.bold,
