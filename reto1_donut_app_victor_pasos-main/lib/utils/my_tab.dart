@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyTab extends StatelessWidget {
+
   final String iconPath;
   const MyTab({super.key, required this.iconPath});
 
@@ -10,12 +11,13 @@ class MyTab extends StatelessWidget {
       height: 50,
       child: Container(
         decoration: BoxDecoration(
-            color: Colors.grey[200], borderRadius: BorderRadius.circular(16)),
+          color: Colors.grey[200],
+          borderRadius: BorderRadius.circular(16)
+          ),
         padding: const EdgeInsets.all(8),
         child: Image.asset(
           iconPath,
-          color: Colors.grey[600],
-        ),
+          color: Colors.grey[600],),
       ),
     );
   }

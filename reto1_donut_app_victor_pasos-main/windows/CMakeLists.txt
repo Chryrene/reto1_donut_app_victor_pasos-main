@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(reto1_donut_app_victor_pasos LANGUAGES CXX)
+project(reto1_donut_app_ragde_escalante LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "reto1_donut_app_victor_pasos")
+set(BINARY_NAME "reto1_donut_app_ragde_escalante")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
